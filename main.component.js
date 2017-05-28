@@ -1,9 +1,9 @@
 angular.
 module('myApp').
 component('main', {
-  template:'<div>
+  template: `<div>
   {{ $ctrl.message }}
-  </div>',
+  </div>`,
   
   controller: function MainController(){
       this.message =';)';
